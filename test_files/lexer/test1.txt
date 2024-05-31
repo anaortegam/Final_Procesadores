@@ -1,0 +1,10 @@
+//---------------------------------------------COMENTARIO_SIMPLE---------------------------------------------
+//Hola esto es un comentario
+//↓←đŧđ↓̉”đ¢¢đŧðß
+//---------------------------------------------COMENTARIO-VARIAS-LINEAS---------------------------------------------
+/*ð¶¶ŧđ←ŋ↓ħˀ→”ˀĸµµĸøħŋ“
+*^´'¿¡{}][{\\}][{6{¬½~#@|@#*/
+/* Hola /*esto es un comenta$rio anidado(ns por probar)@ # ; ++
+*holaaaaa * [ ``  [ \ | !
+*que tal me deja meter tíldes verdad?
+*/

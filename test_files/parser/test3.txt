@@ -1,0 +1,118 @@
+//------------------------------------------ERROR: EN UN IF NO SE PUEDE DECLARAR UNA FUNCIÓN-------------------------------------------------------
+if (2 == 2){
+ function ID (asd: int):boolean {
+    type Square = {side: float, color:character};
+ }
+}
+//------------------------------------------ERROR: EN UN FUNCIÓN NO SE PUEDE DECLARAR UNA FUNCIÓN-------------------------------------------------------
+function ID (asd: int):boolean {
+ let a = {a: boolean};
+ function ID (asd: int):boolean {
+ let a = {a: boolean};
+ }
+ return ASFDASD;
+}
+//------------------------------------------ERROR: EN UN BUCLE NO SE PUEDE DECLARAR UNA FUNCIÓN-------------------------------------------------------
+while (2<12){
+ let a = {a: boolean};
+ function ID (asd: int):boolean {
+ let a = {a: boolean};
+ }
+}
+//-----------------------------------------------------------ERROR: UN IF NO PUEDE ESTAR VACIO--------------------------------------------------------
+if (){
+    let a = {a: tr};
+    type Square = {side: float, color:character};
+}
+//-----------------------------------------------------------UN OBJETO NO PUEDE ESTAR VACIO--------------------------------------------------------
+type Square = {};
+
+//-----------------------------------------------------------ERROR: UN WHILE NO PUEDE ESTAR VACIO--------------------------------------------------------
+while (){
+    let a = {a: tr};
+    type Square = {side: float, color:character};
+}
+//------------------------------------------ERROR: ASIGNACIONES EN UNA EXPRESIÓN -------------------------------------------------------
+var = a * b = 87;
+let var = !34 * !hola.hola["sol"].lluvia = 78 * tr;
+let var, h = 34 * hola.hola["sol"].lluvia + 78 * tr = !6 * a;
+//------------------------------------------ERROR: LA FUNCIÓN DEBE DEVOLVER ALGO-------------------------------------------------------
+function id (): int{
+    while (2<12){
+        let a = {a: tr};
+        while (2<12){
+        type Square = {side: float, color:character};
+        }
+    }
+
+    while (2<12){
+        let a = {a: tr};
+        if (34 == 12){
+        type Square = {side: float, color:character};
+        if (2 == 2){
+             if (2<12){
+                let a = {a: tr};
+                type Square = {side: float, color:character};
+            }
+            if (2<10){
+                let a = {a: tr};
+                type Square = {side: float, color:character};
+            }
+            else{
+             type Square = {side: float, color:character};
+             }
+             if (2<10){
+                let a = {a: tr};
+                type Square = {side: float, color:character};
+            }
+             }
+             else{
+             while (2<12){
+                let a = {a: tr};
+                while (2<12){
+                type Square = {side: float, color:character};
+                }
+            }
+            }
+        }
+    }
+}
+//------------------------------------------ERROR: EN LET NO SE PUEDEN ASIGNAR TIPOS Y EN TYPE NO SE PUEDEN ASIGNAR VALORES---------------------------------------------------
+let House : house = {
+    location:{ city : {
+        MADRID: { VILLALBA:1, LAS_ROZAS:2, ALPEDRETE:3 },
+        MURCIA:{LAS_AGUILAS:1},
+     },
+     country : 'E', //esto es comentario
+    },
+    price:{
+        euro: {
+            poco:{
+                uneuro:{    //lo que tengo en ,i cuenta.
+                cinco_centimos: int, diez_centimos: 0.1,veinte_centimos:0.2,cincuenta_centimos:0.5},
+                cincoeuros: { billete: 1, monedas:{cinco_uneuro:2, dos_euro_uno:3}
+                 }
+                }
+        }
+    }
+};
+
+type House = {location : { city : {
+        MADRID: { VILLALBA:character, LAS_ROZAS:character, ALPEDRETE:character},
+        MURCIA:{LAS_AGUILAS:character},
+     },
+     country : character,
+    },
+    price:{
+    euro: {
+    poco:{
+    uneuro:{
+    cinco_centimos: float , diez_centimos: float ,veinte_centimos:float ,cincuenta_centimos: float},
+    cincoeuros: {billete: 0.00 , monedas:{cinco_uneuro: int, dos_euro_uno: int},
+    }
+    }
+    }
+    }
+};
+//------------------------------------------ERROR: EXPRESIONES NO STR_CON_COMILLAS---------------------------------------------------
+let a = "holaa";

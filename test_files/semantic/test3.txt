@@ -1,0 +1,116 @@
+//----------------------------------------------------DECLARACIÓN TIPO COMPLEJA------------------------------------------------------
+type House = {location : { city : {
+        MADRID: { VILLALBA:character, LAS_ROZAS:character, ALPEDRETE:character},
+        MURCIA:{LAS_AGUILAS:character},
+     },
+     country : character,
+    },
+    price:{
+    euro: {
+    poco:{
+    uneuro:{
+    cinco_centimos: float , diez_centimos: float ,veinte_centimos:float ,cincuenta_centimos: float},
+    cincoeuros: {billete: int , monedas:{cinco_uneuro: int, dos_euro_uno: int},
+    }
+    }
+    }
+    }
+};
+
+//----------------------------------------------------ASIGNACIÓN TIPO COMPLEJA------------------------------------------------------
+let House : House = {
+    location:{city : {
+                        MADRID: { VILLALBA:'c', LAS_ROZAS:'f', ALPEDRETE:'l' },
+                        MURCIA:{LAS_AGUILAS:'h'},
+                        },
+               country : 'E',
+    },
+    price:{
+        euro: {
+            poco:{
+                uneuro:{    //lo que tengo en ,i cuenta.
+                cinco_centimos: 0.05, diez_centimos: 0.1,veinte_centimos:0.2,cincuenta_centimos:0.5},
+                cincoeuros: { billete: 1, monedas:{cinco_uneuro:2, dos_euro_uno:3}
+                 }
+            }
+        }
+    }
+};
+
+//------------------------------------------ASIGNACIÓN TIPO COMPLEJA(variable anidada)------------------------------------------------
+House.location.city.MADRID = { VILLALBA:'9', LAS_ROZAS:'2', ALPEDRETE:'1' };
+House.location.city.MADRID.VILLALBA = 'l';
+
+//-----------------------------------------------ASIGNACIÓN DE UN OBJETO-------------------------------------------------------------
+let manolo: House;
+manolo = {
+    location:{city : {
+                        MADRID: { VILLALBA:'c', LAS_ROZAS:'f', ALPEDRETE:'l' },
+                        MURCIA:{LAS_AGUILAS:'h'},
+                        },
+               country : 'E',
+    },
+    price:{
+        euro: {
+            poco:{
+                uneuro:{    //lo que tengo en ,i cuenta.
+                cinco_centimos: 0.05, diez_centimos: 0.1,veinte_centimos:0.2,cincuenta_centimos:0.5},
+                cincoeuros: { billete: 1, monedas:{cinco_uneuro:2, dos_euro_uno:3}
+                 }
+            }
+        }
+    }
+};
+
+manolo.location.city.MADRID.VILLALBA = 'd';
+manolo.location.city.MADRID.VILLALBA = 'd' + 'c' - 'b';
+let g = manolo.price.euro.poco.uneuro["cinco_centimos"] * 3 + 9.0;          //Expresión del mismo tipo
+let holamanolo = manolo.location.city.MADRID.VILLALBA +  manolo.location.city.MADRID.LAS_ROZAS + 9.876;
+//-----------------------------------------------MUY ANIDADA-----------------------------------------------------------------------------------------------------------
+type anidado = {location : { city : { uneuro:{ cincoeuros: {cicos: {cincos: {cins: { diez_centimos: float,veinte_centimos:float,cincuenta_centimos:float}}}}}}}};
+let anidado : anidado = {location : { city : { uneuro:{ cincoeuros: {cicos: {cincos: {cins: { diez_centimos: 0.1,veinte_centimos:0.2,cincuenta_centimos:0.5}}}}}}}};
+anidado["location"] = { city : { uneuro:{ cincoeuros: {cicos: {cincos: {cins: { diez_centimos: 0.1,veinte_centimos:0.9,cincuenta_centimos:0.5}}}}}}};
+anidado["location"]["city"]["uneuro"]["cincoeuros"].cicos.cincos.cins.diez_centimos = 9.1;
+
+//-----------------------------------------------DICT NO DA PROBLEMAS-----------------------------------------------------------------
+type DICT = {location : { city : {
+        MADRID: { VILLALBA:character, LAS_ROZAS:character, ALPEDRETE:character},
+        MURCIA:{LAS_AGUILAS:character},
+     },
+     country : character,
+    },
+    price:{
+    euro: {
+    poco:{
+    uneuro:{
+    cinco_centimos: float , diez_centimos: float ,veinte_centimos:float ,cincuenta_centimos: float},
+    cincoeuros: {billete: int , monedas:{cinco_uneuro: int, dos_euro_uno: int},
+    }
+    }
+    }
+    }
+};
+
+let HOLA : DICT;
+
+HOLA = {
+    location:{city : {
+                        MADRID: { VILLALBA:'c', LAS_ROZAS:'f', ALPEDRETE:'l' },
+                        MURCIA:{LAS_AGUILAS:'h'},
+                        },
+               country : 'E',
+    },
+    price:{
+        euro: {
+            poco:{
+                uneuro:{    //lo que tengo en ,i cuenta.
+                cinco_centimos: 0.05, diez_centimos: 0.1,veinte_centimos:0.2,cincuenta_centimos:0.5},
+                cincoeuros: { billete: 1, monedas:{cinco_uneuro:2, dos_euro_uno:1000000000000000000000000}
+                 }
+            }
+        }
+    }
+};
+//---------------------------------Declarar variable compleja sin asignaciones de valores-----------------------------------
+type uu = {a: int, b: {c: boolean}};
+let aaaa : uu;

@@ -1,0 +1,25 @@
+//--------------------------------------------------------------TEST DE ERRORES-------------------------------------------------------------------------------------
+á
+0_val /*0 INT _val STR_SIN_COMILLAS*/
+#
+hola@aa
+"HOL"AA"
+esto
+no
+deberia
+reconocerlo
+"HOL
+AAA"
+?
+¿
+& |
+"hola soy yo"
+-numero
+'
+char
+invalido'
+'
+'
+'æ'
+'╬'
+

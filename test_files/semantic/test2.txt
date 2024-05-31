@@ -1,0 +1,38 @@
+//------------------------------------------------REDEFINCIÓN DE VARIABLES-----------------------------------------------------------
+// Volver a declarar una variable no se permite (no hace nada)
+let p, lo, k,y;
+let p = 3;
+let lo = 7.8;
+let k = 'm';
+let y = 9;
+//----------------------------------------------------DECLARACION DE DOS VARIABLES MISMO NOMBRE-------------------------------------------------
+type Square = {side: float, color:character};
+let Square: Square = {side: .9, color: 'f'};
+let Square = 6;
+let asss = 9.0;
+//------------------------------------------------OPERACIONES NO VÁLIDAS-----------------------------------------------------------
+//------------------------------------------------OPERACIONES ARITMÉTICAS-----------------------------------------------------------
+//SOLO SE PUEDE INT, FLOAT O CARACTER(EN CASO DE COMBINACIÓN DE TIPOS CONVERSIÓN)
+//Caracteres que devuelven valor negativo
+let c = 'g' - 'a';
+let b = 'c' - 'd';      //No permitido valor, negativo, no devuelve caractrer.
+//Valores no permitidos de operadores
+//Suma y resta
+let d = tr + 8;
+let e = tr - 8;
+// División y multiplicación
+let f = 2.0 * tr;
+let g = 3 * f + d - e;
+let h = 8.9/ tr;
+let i = 8 / tr;
+//------------------------------------------------OPERACIONES DE COMPARACIÓN-----------------------------------------------------------
+let j = tr < 9;
+let jll = tr > 0.9;
+let jde = tr >= 9;
+let jedw = tr <= 0xff;
+let jdefwe = tr == 9;
+//------------------------------------------------OPERADORES LÓGICOS-----------------------------------------------------------
+let jFF = tr && 9;
+let jhF = tr && 9 || tr;
+let aafsfe = !39;
+

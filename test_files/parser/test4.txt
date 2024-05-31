@@ -1,0 +1,188 @@
+//------------------------------------------PROBANDO ANIDACIONES DE WHILE, IF Y FUNCTION(WHILE W IF)------------------------------------------------------
+//------------------------------------------IF CON BUCLE-------------------------------------------------------
+if (2 == 2){
+ while (2<12){
+    let a = {a: tr};
+    type Square = {side: float, color:character};
+}
+ type Square = {side: float, color:character};
+ }
+
+ if(2){}
+
+//------------------------------------------IF CON IF-------------------------------------------------------
+if (2==2){
+    if (2<12){
+        let a = {a: tr};
+        type Square = {side: float, color:character};
+    }
+    if (2<10){
+        let a = {a: tr};
+        type Square = {side: float, color:character};
+    }
+    else{
+        type Square = {side: float, color:character};
+    }
+    if (2<10){
+        let a = {a: tr};
+        type Square = {side: float, color:character};
+    }
+    }
+else{
+    while (2<12){
+    let a = {a: tr};
+        while (2<12){
+        type Square = {side: float, color:character};
+        }
+        while (2<12){
+        }
+    }
+}
+
+//--------------------------------------------------------WHILE CON BUCLE E IF ANIDADOS----------------------------------------------------------------
+while (2<12){
+    let a = {a: tr};
+    while (2<12){
+    type Square = {side: float, color:character};
+    }
+}
+
+while (2<12){
+    let a = {a: tr};
+    if (34 == 12){
+    type Square = {side: float, color:character};
+    if (2 == 2){
+         if (2<12){
+            let a = {a: tr};
+            type Square = {side: float, color:character};
+        }
+        if (2<10){
+            let a = {a: tr};
+            type Square = {side: float, color:character};
+        }
+        else{
+         type Square = {side: float, color:character};
+         }
+         if (2<10){
+            let a = {a: tr};
+            type Square = {side: float, color:character};
+        }
+         }
+         else{
+         while (2<12){
+            let a = {a: tr};
+            while (2<12){
+            type Square = {side: float, color:character};
+            }
+        }
+        }
+    }
+}
+
+//--------------------------------------------------------FUNCIONES CON BUCLE E IF ANIDADOS---------------------------------------------------------------
+function id (): int{
+    while (2<12){
+        let a = {a: tr};
+        while (2<12){
+        type Square = {side: float, color:character};
+        }
+    }
+
+    while (2<12){
+        let a = {a: tr};
+        if (34 == 12){
+        type Square = {side: float, color:character};
+        if (2 == 2){
+             if (2<12){
+                let a = {a: tr};
+                type Square = {side: float, color:character};
+            }
+            if (2<10){
+                let a = {a: tr};
+                type Square = {side: float, color:character};
+            }
+            else{
+             type Square = {side: float, color:character};
+             }
+             if (2<10){
+                let a = {a: tr};
+                type Square = {side: float, color:character};
+            }
+             }
+             else{
+             while (2<12){
+                let a = {a: tr};
+                while (2<12){
+                type Square = {side: float, color:character};
+                }
+            }
+            }
+        }
+    }
+    return 12;
+}
+
+function id (): int{
+    while (2<12){
+        let a = {a: tr};
+        while (2<12){
+        type Square = {side: float, color:character};
+        }
+    }
+
+    while (2<12){
+        let a = {a: tr};
+        if (34 == 12){
+        type Square = {side: float, color:character};
+        if (2 == 2){
+             if (2<12){
+                let a = {a: tr};
+                type Square = {side: float, color:character};
+            }
+            if (2<10){
+                let a = {a: tr};
+                type Square = {side: float, color:character};
+            }
+            else{
+             type Square = {side: float, color:character};
+             }
+             if (2<10){
+                let a = {a: tr};
+                type Square = {side: float, color:character};
+            }
+             }
+             else{
+             while (2<12){
+                let a = {a: tr};
+                while (2<12){
+                type Square = {side: float, color:character};
+                }
+            }
+            }
+        }
+    }
+    return 12;
+}
+
+function id (): int{
+    return 12;
+}
+//-----------------------------------------------------------VALOR NULO EN EL BUCLE WHILE-----------------------------------------------------------
+while(null){
+    let a = {a: tr};
+    type Square = {side: float, color:character};
+}
+
+//-----------------------------------------------------------VALOR NULO EN IF-----------------------------------------------------------
+if (null){
+    let a = {a: tr};
+    type Square = {side: float, color:character};
+}
+//Vacio
+function mod(): float{
+    return (((par_1 + par_2 - par_4) <= 0) == par_3);
+}
+//Objetos tamnbién son tipos
+function mod(a: Hola, a: Object): OBJECT{
+    return (((par_1 + par_2 - par_4) <= 0) == par_3);
+}

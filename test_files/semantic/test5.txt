@@ -1,0 +1,75 @@
+//-------------------------------------DEFINICIÓN DE FUNCIONES-----------------------------------
+let a;
+a = 98 * 50;
+type House = {location : int, b: float};
+function entero (): int{
+    let ko = 2* 5 -10.7;
+    return 2;
+}
+function flotante (): float{
+    return 2;
+}
+function caracter (): character{
+    let ll = 'c'+'m';
+    return 2;
+}
+function booleano (): boolean{
+    return 2;
+}
+function entero (a: int, b: int): int{
+    let ck = a + b * 2;
+    return a+b;
+}
+function aas (a: House): House{
+        type HOLA = {location : { city : {
+            MADRID: { VILLALBA:character, LAS_ROZAS:character, ALPEDRETE:character},
+            MURCIA:{LAS_AGUILAS:character},
+         },
+         country : character,
+        },
+        price:{
+        euro: {
+        poco:{
+        uneuro:{
+        cinco_centimos: float , diez_centimos: float ,veinte_centimos:float ,cincuenta_centimos: float},
+        cincoeuros: {billete: int , monedas:{cinco_uneuro: int, dos_euro_uno: int},
+        }
+        }
+        }
+        }
+    };
+    let Ho : House = {
+        location:{city : {
+                            MADRID: { VILLALBA:'c', LAS_ROZAS:'f', ALPEDRETE:'l' },
+                            MURCIA:{LAS_AGUILAS:'h'},
+                            },
+                   country : 'E',
+        },
+        price:{
+            euro: {
+                poco:{
+                    uneuro:{    //lo que tengo en ,i cuenta.
+                    cinco_centimos: 0.05, diez_centimos: 0.1,veinte_centimos:0.2,cincuenta_centimos:0.5},
+                    cincoeuros: { billete: 1, monedas:{cinco_uneuro:2, dos_euro_uno:3}
+                     }
+                }
+            }
+        }
+    };
+    return a;
+}
+//-------------------------------------USO DE FUNCIONES------------------------------------------------------
+//-----------------------------------------------Operadores aritméticos-----------------------------------------------------------
+let l = entero()/flotante() + 'c' - 9;
+let b = 2 + entero() * 4 + 100 ;
+let c = flotante() * -entero();
+//-----------------------------------------------Operadores de comparación-----------------------------------------------------------
+let d = entero() < flotante();
+let e = entero() == flotante();
+let f = 'c' * entero() <= caracter();
+let g = caracter() >= flotante();
+let h = entero() > flotante() + 89 - 6;
+//-----------------------------------------------Operadores lógicos-----------------------------------------------------------
+let i = booleano() || booleano() && !booleano();
+let j = booleano() &&tr || booleano() || !fl;
+let k = booleano() || 2 < 3 && tr || booleano();

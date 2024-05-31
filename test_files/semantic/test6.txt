@@ -1,0 +1,53 @@
+//-------------------------------------DEFINICIÓN DE FUNCIONES - ERRORES--------------------------------
+// Error variable definida anteriormente
+function entero (): int{
+    return 2;
+}
+function entero(): character{
+    return 2;
+}
+// Error el tipo de uno de los parámetros no es correcto
+function aas (a: ADICI): int{
+    return a;
+}
+// Error el tipo de la función no es correcto
+function aas (a: int): ADICI{
+    return a;
+}
+let a = 3.0;
+//-------------------------------------OPERACIONES NO PERMITIDAS DE TIPOS - ERRORES--------------------------------
+//DECLARAR FUNCIONES
+type ADICIONAL = {a: int, b: float};
+function entero (): int{
+    return 2;
+}
+function flotante (): float{
+    return 2;
+}
+function caracter (): character{
+    return 2;
+}
+function booleano (): boolean{
+    return 2;
+}
+function entero (a: int, b: int): int{
+    let a;
+    let a=2;
+    return a + b;
+}
+function aas (a: ADICIONAL): ADICIONAL{
+    return a;
+}
+//--------------------------------------------------NO VÁLIDOS OPERACIONES ARITMETICAS-------------------------------------
+let h = 2-4+ entero() * booleano();
+let b = booleano()-a + entero() * 2 +76 / 9.0;
+let c = aas({a: 3, b: 0.9})-a + entero() * 2 +76 / 9.0;
+
+//--------------------------------------------------NO VÁLIDOS COMPARADORES-------------------------------------------------
+let D = aas({a: 3, b: 0.9}) < 2;
+let d = booleano() > entero();
+let e =  aas({a: 3, b: 0.9}) == entero();
+
+//--------------------------------------------------NO VÁLIDOS LÓGICOS-------------------------------------------------
+let F = entero() || flotante();
+let G =  flotante() && tr || !booleano() <= caracter();

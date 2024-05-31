@@ -1,0 +1,6 @@
+ana = 2;
+e = 7;
+p = 'c';
+hola = 0.1;
+let a = ana + 8 * e - hola - p +9 * ana/8 * 89;
+b= ana + 8 * e - hola - -8 * 7 * ana - -9.6 * 10e12;

@@ -1,0 +1,116 @@
+//----------------------------------------------------------Probando type------------------------------------------------------------------
+type Circle = {cx:float, cy:float, radio: float, color:character};
+type NestedObject = {"this is": character, prop2: int, "prop3": boolean};
+type Object = {"this is": character, prop2: int, "prop3": NestedObject};
+type Square = {side: float, color:character};
+/*type anidado*/
+type House = {location : { city : {
+        MADRID: { VILLALBA:character, LAS_ROZAS:character, ALPEDRETE:character},
+        MURCIA:{LAS_AGUILAS:character},
+     },
+     country : character,
+    },
+    price:{
+    euro: {
+    poco:{
+    uneuro:{
+    cinco_centimos: OBejct , diez_centimos: float ,veinte_centimos:float ,cincuenta_centimos: float},
+    cincoeuros: {billete: int , monedas:{cinco_uneuro: int, dos_euro_uno: int},
+    }
+    }
+    }
+    }
+};
+type TypeConversions = {
+    f1:float,
+    f2:float,
+    i: int,
+    b:boolean,
+};
+let a = 'h' * 8 + -9;
+A = 9 + 8;
+//----------------------------------------------------------Probando let------------------------------------------------------------------
+let a,b;
+let num: numero;
+let d,e = 0xFF / 89 + 98 - (0xff / 8900 * 78);
+let d,e = (0xFF) / 89 + 98 - (0xff / 8900 * 78);
+let h = 1 + 20 * 30;
+let var1: Object, var2, var3;
+let circle: Circle = { ajson : 90 };
+let my_house : House =  {
+    location : {city :30},          //hola comentario aquiii te ignorooo.
+    price: {hola: 67}
+};
+let suma = funcion(1, 2) + 12;
+res.var["iop"] = 21;
+res["iop"].var = 12;
+type asd = {val1: int, val3: boolean, val2: func};
+let dsaa: asd = {val1: 12, val3: func (12.2-13*asd(23)-res.var["iop"], 12), val2: 3.34 ,hola: id()};
+let zxcv = func (12.2-13*asd(23)-res.var["iop"], 12);
+let result = greatest_common_divisor(132, 0x00F);
+let with_tax = my_house["price"].euro * 1.1;
+let with_ta = my_house["price"] + letU.price + letU.price["hola"];
+let with_ta = my_house["price"] + (letU.price);
+let hola = 'c'+ 'b' + 'h' * my_house["price"].euro * a;
+/*let anidado*/
+let House : house = {
+    location:{ city : {
+        MADRID: { VILLALBA:1, LAS_ROZAS:2, ALPEDRETE:3 },
+        MURCIA:{LAS_AGUILAS:1},
+     },
+     country : 'E', //esto es comentario
+    },
+    price:{
+        euro: {
+            poco:{
+                uneuro:{    //lo que tengo en ,i cuenta.
+                cinco_centimos: 0.05, diez_centimos: 0.1,veinte_centimos:0.2,cincuenta_centimos:0.5},
+                cincoeuros: { billete: 1, monedas:{cinco_uneuro:2, dos_euro_uno:3}
+                 }
+                }
+        }
+    }
+};
+let ana = !!!!!!tr && 8 * 5 + 8 ||7;
+let ruben = !6 * (((((!!tr))))) && 3 * 5 -6 <= 8 || !6 <= 78;
+
+//----------------------------------------------------------Probando variables(lo mismo que let)------------------------------------------------------------------
+d = 0xFF / 89 + 98 - (0xff / 8900 * 78);
+d = (0xFF) / 89 && 98 - (0xff / 8900 * 78);
+h = 1 + 20 * 30;
+Circle = { ajson : 90 };
+ House =  {
+    location : {city :30},          //hola comentario aquiii te ignorooo.
+    price: {hola: 67}
+};
+suma = funcion(1, 2) + 12;
+suma.suma = funcion(1, 2) + 12;
+suma.suma.suma.suma.suma    = funcion(1, 2) + 12;
+suma.suma.suma.suma["hola"].lo["ke"] = {val1: 12, val3: func (12.2-13*asd(23)-res.var["iop"], 12), val2: 3.34};
+asd = {val1: hola.hola, val3: 7, val2: ' '};
+asd = {val1: 12, val3: func (!12.2-13*asd(23)||res.var["iop"], 12), val2: 3.34};
+zxcv = func (12.2-13*asd(23)-res.var["iop"], 12);
+ result = greatest_common_divisor(132, 0x00F);
+with_tax = my_house["price"].euro * 1.1;
+with_ta = my_house["price"] + letU.price + letU.price;
+with_ta = my_house["price"] + (letU.price);
+hola = 'c'+ 'b' + 'h' * my_house["price"].euro * a;
+house = {
+    location:{ city : {
+        MADRID: { VILLALBA:1, LAS_ROZAS:2, ALPEDRETE:3 },
+        MURCIA:{LAS_AGUILAS:1},
+     },
+     country : 'E', //esto es comentario
+    },
+    price:{
+        euro: {
+            poco:{
+                uneuro:{    //lo que tengo en ,i cuenta.
+                cinco_centimos: 0.05, diez_centimos: 0.1,veinte_centimos:0.2,cincuenta_centimos:0.5,},
+                cincoeuros: { billete: 1, monedas:{cinco_uneuro:2, dos_euro_uno:3}
+                 }
+                }
+        }
+    }
+};
+b = !(!tr && !Fl || 67>9);

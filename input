@@ -1,0 +1,10 @@
+
+
+type ass = {a: int, b: {c: int}};
+
+function manolo (a: ass, b: int): ass{
+    return null;
+}
+let a = manolo({a: 2, b: {c: 2}}, 2) + 1;
+let m: ass = {a: 2, b: {c: 2}};
+let b = m.a;

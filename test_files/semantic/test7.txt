@@ -1,0 +1,52 @@
+//---------------------------------------------------COMPROBACIÓN TIPOS BUCLES/CONDICIONELES-----------------------------------------------
+if (2 == 2){
+ while (2<12){
+    let a = {a: tr};
+    //type Square = {side: float, color:character};
+    //let Square = {side: 9.0, color: 'f'};
+    let c = 3;
+}
+}
+//----------------------------------------------------NO SE CUMPLE CONDICIONES--------------------------------------------------
+if (2 == 3){
+ while (2>12){
+    let a = {a: tr};
+    type Squar = {side: float};
+}
+}
+//----------------------------------------------------PROBAMOS MÁS EJEMPLOS--------------------------------------------------
+
+if(2){
+    let F = 8;
+    type Sque = {side: float, color:character};
+}
+
+if (2==2){
+    if (2<12){
+        let L = 9.0/1;
+        type Sqe = {side: float, color:character};
+    }
+    if (2<10){
+        let a = {a: tr};
+        type re = {side: float, color:character};
+    }
+    else{
+        type Squakkre = {side: float, color:character};
+    }
+    if (2>10){
+        let a = {a: tr};
+        type S = {side: float, color:character};
+    }
+    }
+else{
+    while (2<12){
+    let D = 'B';
+        while (2<12){
+        //let Square = 9;
+        }
+        while (2<12){
+
+        }
+    }
+}
+

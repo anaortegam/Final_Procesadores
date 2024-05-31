@@ -1,0 +1,80 @@
+//----------------------------------------------------ASIGNACIÓN TIPO COMPLEJA------------------------------------------------------
+let MYHOUSE : House = {
+    location:{city : {
+                        MADRID: { VILLALBA:'c', LAS_ROZAS:'f', ALPEDRETE:'l' },
+                        MURCIA:{LAS_AGUILAS:'h'},
+                        },
+               country : 'E',
+    },
+    price:{
+        euro: {
+            poco:{
+                uneuro:{    //lo que tengo en ,i cuenta.
+                cinco_centimos: 0.05, diez_centimos: 0.1,veinte_centimos:0.2,cincuenta_centimos:0.5},
+                cincoeuros: { billete: 1, monedas:{cinco_uneuro:2, dos_euro_uno:3}
+                 }
+            }
+        }
+    }
+};
+
+//----------------------------------------------------SE DEBE INICIALIZAR ANTES------------------------------------------------------
+type ASA = {location : { city : {
+        MADRID: { VILLALBA:character, LAS_ROZAS:character, ALPEDRETE:character},
+        MURCIA:{LAS_AGUILAS:character},
+     },
+     country : character,
+    },
+    price:{
+    euro: {
+    poco:{
+    uneuro:{
+    cinco_centimos: float , diez_centimos: float ,veinte_centimos:float ,cincuenta_centimos: float},
+    cincoeuros: {billete: int , monedas:{cinco_uneuro: int, dos_euro_uno: int},
+    }
+    }
+    }
+    }
+};
+
+ASA.location.city.MADRID.VILLALBA = 'l';  //No se añade el valor.
+//----------------------------------------------------CAMBIAR TIPO NO VALIDO (solo uno mal)------------------------------------------------------
+let hola : ASA = {
+    location:{city : {
+                        MADRID: { VILLALBA:'c', LAS_ROZAS:'f', ALPEDRETE:'l' },
+                        MURCIA:{LAS_AGUILAS:'h'},
+                        },
+               country : 'E',
+    },
+    price:{
+        euro: {
+            poco:{
+                uneuro:{    //lo que tengo en ,i cuenta.
+                cinco_centimos: 0.05, diez_centimos: 2,veinte_centimos:0.2,cincuenta_centimos:0.5},
+                cincoeuros: { billete: 1, monedas:{cinco_uneuro:2, dos_euro_uno:3}
+                 }
+            }
+        }
+    }
+};
+//----------------------------------------------------ATRIBUIR VALOR NO VALIDO------------------------------------------------------
+let hola : ASA = {
+    location:{city : {
+                        MADRID: { VILLALBA:'c', LAS_ROZAS:'f', ALPEDRETE:'l' },
+                        MURCIA:{LAS_AGUILAS:'h'},
+                        },
+               country : 'E',
+    },
+    price:{
+        euro: {
+            poco:{
+                uneuro:{    //lo que tengo en ,i cuenta.
+                cinco_centimos: 0.05, diez_centimos: 0.2,veinte_centimos:0.2,cincuenta_centimos:0.5},
+                cincoeuros: { billete: 1, monedas:{cinco_uneuro:2, dos_euro_uno:3}
+                 }
+            }
+        }
+    }
+};
+hola.location.city.MADRID.VILLALBA = 0;
+hola.location.olaaa = 7;
